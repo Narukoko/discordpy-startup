@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def paing(ctx):
-    await ctx.send('pong')
+    await ctx.send('poong')
 
 
 bot.run(token)
